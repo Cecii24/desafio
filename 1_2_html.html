@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1.1 - Introducción | Diseño Web</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Playfair+Display+SC&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>Desafío práctico</h1>
+      <!-- 1. Crear un archivo html
+        2. Utilizando las etiquetas vistas en clase, crear su perfil, es decir:
+        - Foto de perfil
+        - Lista con edad, nombre, apellido, mail.
+        - Un párrafo con una breve descripción de ustedes. -->
+    </header>
+    <main>
+      <div class="foto">
+        <a href="http://www.google.com.ar">
+          <img src="./images/mujer.png" width="150px" alt="avatar de mujer" />
+        </a>
+      </div>
+      <section class="datos">
+        <ul>
+          <li>Nombre: Cecilia</li>
+          <li>Apellido: Osvaldo</li>
+          <li>Edad: 31 años</li>
+          <li>ceciliaosvaldo@hotmail.com</li>
+        </ul>
+      </section>
+      <section class="descripcion">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse maxime nam natus repudiandae consequuntur, unde similique pariatur odit distinctio laboriosam laborum impedit sunt quos maiores commodi cupiditate soluta architecto consequatur laudantium excepturi aperiam dolorem sed? Eveniet corrupti, perspiciatis ducimus, fuga sit a vero nihil quos voluptatibus aliquid minus qui est.</p>
+      </section>
+      <form>
+        <h2>Contactame</h2>
+        <div class="contacto">
+          <div>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" />
+          </div>
+          <div>
+            <label for="lastname">Apellido:</label>
+            <input type="text" id="lastname" />
+          </div>
+          <div>
+            <label for="tel">Teléfono:</label>
+            <input type="number" id="tel" />
+          </div>
+          <div>
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" />
+          </div>
+          <div>
+            <label for="message">Mensaje:</label>
+            <textarea name="message" id="message" placeholder="Dejanos tus comentarios"></textarea>
+          </div>
+          <div>
+            <input type="submit" />
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
